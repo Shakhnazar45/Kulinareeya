@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap');
+
+@media screen and (max-width: 391px) {
+    body{
+        background: #F1EACC;
+    }
+    .container{
+        max-width: 358px;
+    }
+    .main .container{
+        height: 60px;
+        display: flex;
+        align-items: center;
+
+        border-bottom: 1px solid #000;
+    }
+    .main .container img{
+        width: 16px;
+        height: 12px;
+    }
+    .main .container p{
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        
+        color: #1A1A1A;
+
+        margin: 0 0 0 11px;
+    }
+    .main-img{
+        height: 316px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .main-img .container{
+        height: 299px;
+        background: #85786A;
+        border-radius: 19px;
+    }
+    .rec-name{
+        height: 99px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .rn-con p{
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        
+        color: #000000;
+    }
+    .rn-con input{
+        width: 358px;
+        height: 38px;
+        border: 1px solid #000;
+        border-radius: 19px;
+        background: rgba(255, 255, 255, 0);
+
+        padding-left: 13px;
+    }
+
+    .ingredients{
+        height: 184px;
+        display: flex;
+        flex-flow: column;
+        justify-content: end;
+        align-items: flex-end;
+    }
+    .ing-name{
+        height: 29px;
+    }
+    .ing-name p{
+        margin: 0;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        
+        color: #000000;        
+    }
+    .ing-1{
+        height: 130px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+    .ing-1 p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        
+        
+        color: #85786A;
+    }
+    .ing-input{
+        width: 100%;
+        height: 38px;
+        background: rgba(255, 255, 255, 0);
+
+        border: 1px solid #000;
+        border-radius: 19px;
+
+        padding-left: 13px;
+    }
+    .weight{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .weight-input{
+        width: 175px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0);
+
+        border-radius: 19px;
+        border: 1px solid #000;
+
+        padding-left: 13px;
+    }
+    .weight .list{
+        width: 175px;
+        height: 30px;
+        border: 1px solid #000;
+        border-radius: 19px;
+
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .list img{
+        width: 16px;
+        height: 8px;
+
+        margin-right: 11px;
+    }
+    .weight .list .link{
+        width: 138px;
+        height: 29px;
+
+        border: 1px solid #000;
+        border-radius: 19px;
+
+        margin: 0;
+        padding-left: 13px;
+
+        list-style: none;
+    }
+
+    /* .weight .sub-list{
+        width: 175px;
+        height: 247px;
+        background: #F1EACC;
+
+        margin: 0 0 0 0;
+        padding: 0;
+
+        list-style: none;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        border-radius: 19px;
+        border: 1px solid #000;
+
+        position: absolute;
+        top: 625px;
+        right: 7px;
+    }
+    .weight .sub-list .sub-link{
+        padding-left: 13px;
+    } */
+}
